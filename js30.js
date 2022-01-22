@@ -1,5 +1,5 @@
-function min(a, b){
-    if a<b {
+function min(a , b){
+    if a < b {
         return a;
     }
     return b;
@@ -18,8 +18,8 @@ sayHi();
 // `labas ${wowString}`;
 
 function sayHi(word) {
-    alert("Sveiki!" + word);
+    alert(word);
 }
 
-sayHi();
+sayHi('Labukas');
 
