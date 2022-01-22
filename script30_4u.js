@@ -1,6 +1,7 @@
 function sayHi(name) {
     
-    alert('Labas,'+' '+ name);
+    return 'Labas ' + name;
 }
 
-sayHi(prompt('įveskite savo vardą'));
+const atakyma = sayHi('Ingrida');
+alert(atsakymas);
