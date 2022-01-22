@@ -1,5 +1,5 @@
 function sayHi(name) {
-    console.log (name)
+    
     alert('Labas,'+' '+ name);
 }
 
