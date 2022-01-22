@@ -1,7 +1,5 @@
-function sayHi(name) {
-    
-    return 'Labas ' + name;
+// 5 uzduotis
+function suma(a,b) {
+    return a + b;
 }
-
-const atakyma = sayHi('Ingrida');
-alert(atsakymas);
+alert(suma(5, 7));
